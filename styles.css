@@ -1,0 +1,221 @@
+*{
+    padding: 0;
+
+}
+.img {
+    width: 140px;
+    height: 140px;
+    padding: auto;
+    align-self: center;
+    padding: 0px 0px 0px 612px;
+}
+.nav {
+    text-align: center;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+#myBtn {
+    float: right;
+    border: none;
+    position: relative;
+    z-index: 99;
+    padding: 10px;
+    outline: none;
+    background-color: slateblue;
+    color: skyblue;
+    cursor: pointer
+    ;
+    border-radius: 10px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+#myBtn:hover {
+    background-color: #555;
+}
+body {
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 400;
+    color: darkturquoise;
+    letter-spacing: 1px;
+}
+.container {
+    background-image: url(./biglogo.jpg);
+    background-position: center;
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+.container-time {
+    padding: 50px;
+    outline: 3px dashed slateblue;
+    outline-offset: -30px;
+    text-align: center;
+}
+.heading {
+    font-size: 35px;
+    text-transform: uppercase;
+    
+}
+    
+.heading-days {
+    color:darkturquoise;
+    font-size: 30px;
+    
+}
+    
+.heading-phone {
+    font-size: 20px;
+}
+.container-form {
+    padding: 20px 0;
+    margin: 0 auto;
+ 
+}
+form {
+    display: grid;
+    grid-row-gap: 20px;
+    }
+form p {
+    font-weight: 600;
+    font-size: 18px;
+    }
+.form-field {
+    display: flex;
+    justify-content: space-between;
+    }
+    
+input,select {
+    padding: 10px 15px;
+}
+.btn {
+    background-color: rgba(0, 0, 0, .95);
+    color:darkturquoise;
+    padding: 10px 20px;
+    border: none;
+    font-size: 18px;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+    box-shadow: 7px 10px 12px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+}
+    
+.btn:hover {
+    transform: scale(1.03);
+    -webkit-transform: scale(1.03);
+    -moz-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    -o-transform: scale(1.03);
+    box-shadow: 10px 12px 15px rgba(0, 0, 0, .3);
+}
+.end{
+    color:turquoise;
+    font-size: 18px;
+    padding: 20px;
+    font-weight: 600;
+}
+.color{
+    font-size: 18px;
+    color:slateblue;
+    font-weight: 400;
+}
+@media only screen and (max-width: 600px) {
+    .img {
+        width: 140px;
+        height: 140px;
+        align-self: center;
+        float: right;
+        padding-right: 120px;
+    }
+    .container {
+        background-image: url(./biglogo.jpg);
+        background-position:center;
+        margin: 10px;
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    .body{
+        font-size: 18px;
+    }
+    .container-time {
+        padding: 30px 10px;
+        outline: 2px dashed slateblue;
+        outline-offset: -20px;
+        text-align: center;
+    }
+    .heading {
+        font-size: 18px;
+        text-transform: uppercase;
+        padding: 5px 5px;
+        
+    }
+        
+    .heading-days {
+        color:darkturquoise;
+        font-size:15px;
+        align-content: center;
+        
+    }
+        
+    .heading-phone {
+        font-size: 15px;
+    }
+    .container-form {
+        padding:0;
+        margin: 0;
+     
+    }
+    form {
+        display:grid;
+        grid-row-gap: 5px;
+        }
+    form p {
+        font-weight: 600;
+        font-size: 13px;
+        }
+    .form-field {
+        display:grid;
+        justify-content: space-between;
+        }
+        
+    input,select {
+        padding:0;
+    }
+    .btn {
+        background-color: rgba(0, 0, 0, .95);
+        color:darkturquoise;
+        padding: 10px 5px;
+        border:5px;
+        font-size: 15px;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 50px;
+        -ms-border-radius: 50px;
+        -o-border-radius: 50px;
+        box-shadow: 7px 10px 12px rgba(0, 0, 0, .1);
+        cursor: pointer;
+        transition: all .3s;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        -ms-transition: all .3s;
+        -o-transition: all .3s;
+    }
+        
+    .btn:hover {
+        transform: scale(1.03);
+        -webkit-transform: scale(1.03);
+        -moz-transform: scale(1.03);
+        -ms-transform: scale(1.03);
+        -o-transform: scale(1.03);
+        box-shadow: 8px 10px 13px rgba(0, 0, 0, .3);
+    }
+}
